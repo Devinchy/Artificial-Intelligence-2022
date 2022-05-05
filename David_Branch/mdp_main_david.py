@@ -1,4 +1,2 @@
-import pandas
 
-print("hello")
 
