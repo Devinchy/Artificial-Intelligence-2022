@@ -36,6 +36,23 @@ class Traffic_Lights_MDP(MDP):
         self.calculate_probability_LLH = probability_low_low_high()
         self.calculate_probability_LLL = probability_low_low_low()
 
+    def BellMan_1(self):
+        pass
+    def BellMan_2(self):
+        pass
+    def BellMan_3(self):
+        pass
+    def BellMan_4(self):
+        pass
+    def BellMan_5(self):
+        pass
+    def BellMan_6(self):
+        pass
+    def BellMan_7(self):
+        pass
+    def BellMan_8(self):
+        pass
+
 
 #----------------MAIN PROGRAM--------------------------
 
@@ -58,4 +75,6 @@ print(MyMDP.calculate_probability_LLH)
 print(MyMDP.calculate_probability_LLL)
 
 
-    # METHODS DEFINITION: BELLMAN EQUATIONS AND OPTIMAL POLICY CALCULATION
+# METHODS DEFINITION: BELLMAN EQUATIONS AND OPTIMAL POLICY CALCULATION
+
+
