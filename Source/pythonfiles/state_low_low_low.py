@@ -29,4 +29,5 @@ def probability_low_low_low():
         "Low;Low;Low;W;High;Low;High": 0,
         "Low;Low;Low;W;High;High;High": 0,
     }
-    """As the statement says, this probabilities would be zero"""
+
+    return low_low_low
