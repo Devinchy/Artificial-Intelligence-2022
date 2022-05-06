@@ -35,7 +35,7 @@ def probability_high_low_high():
         "['High;Low;High;W;High;High;High']": 0,
     }
     count_rows = 0  # counter to accumulate the total value of the number of rows
-    with open("../Data_files/Data.csv") as f:
+    with open("Data.csv") as f:
         reader = csv.reader(f)
         # counter high_high_high state
         counter_high_low_high_1st = 0
@@ -149,3 +149,5 @@ def probability_high_low_high():
         high_low_high["['High;Low;High;W;High;High;High']"] = round(counter_high_low_high_24th / count_rows, 6)
 
     return high_low_high
+
+

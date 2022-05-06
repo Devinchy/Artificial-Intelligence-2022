@@ -1,5 +1,6 @@
 # first we import the csv to work with the file
 import csv
+import Data_files
 
 def probability_high_high_high():
     
@@ -35,7 +36,7 @@ def probability_high_high_high():
         "['High;High;High;W;High;High;High']": 0,
     }
     count_rows = 0  # counter to accumulate the total value of the number of rows
-    with open("../Data_files/Data.csv") as f:
+    with open("Data.csv") as f:
         reader = csv.reader(f)
         # counter high_high_high state
         counter_high_high_high_1st = 0
