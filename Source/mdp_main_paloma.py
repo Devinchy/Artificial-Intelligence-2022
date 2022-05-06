@@ -171,7 +171,7 @@ count_low_low_high_3th = 0
 count_low_low_high_4th = 0
 count_low_low_high_5th = 0
 count_low_low_high_6th = 0
-with open("Data.csv") as f:
+with open("Data_files/Data.csv") as f:
     reader = csv.reader(f)
     for row in reader:
         count_rows += 1
